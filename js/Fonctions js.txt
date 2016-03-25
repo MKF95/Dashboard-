@@ -1,0 +1,11 @@
+Pour charger une fonction dans une page web :) 
+- document.onload = function () { } 
+
+Changer le style d'une iFrame: 
+
+- var page = frames['frame'].document;
+   var lienFeuilleStyle = frm.createElement(link);
+   lienFeuilleStyle.setAttribute(rel, stylesheet);
+   lienFeuilleStyle.setAttribute(type, text/css);
+   lienFeuilleStyle.setAttribute(href, style.css);
+   page.head.appendChild(lienFeuilleStyle); 

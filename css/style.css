@@ -1,0 +1,49 @@
+.sub-header {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #DDA200;
+  text-align: left;  
+}
+
+/* Contenu du main */
+
+.main {
+  padding: 10px;
+}
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.main .page-header {
+  margin-top: 0;
+}
+    
+/* Placeholder dashboard ideas */
+
+#diagramme{
+    margin: 10px;
+    margin-bottom: 5px;
+}
+
+.placeholders {
+  margin-left: 5px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.placeholders h4 {
+  margin-top: 10;    
+  margin-bottom: 110;
+}
+
+.placeholder {
+  margin-bottom: 20px;
+}
+
+.placeholder img {
+  display: inline-block;
+  border-radius: 50%;
+}

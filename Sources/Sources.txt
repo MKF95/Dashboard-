@@ -1,0 +1,20 @@
+Page Web Sources:
+
+Dashboard Template : 
+- http://getbootstrap.com/examples/dashboard/
+
+Code source dashboard css:
+- http://getbootstrap.com/examples/dashboard/dashboard.css
+
+Methodes de rafraichissement de la page web:
+- http://www.commentcamarche.net/forum/affich-497389-auto-reactualisation-d-une-page-html
+
+Highcharts:
+- https://www.youtube.com/watch?v=97Ur3ZQ20hY
+
+iframes: 
+- http://www.startyourdev.com/html/tag-html-balise-iframe
+
+nagios status critical:
+- http://172.16.0.9/cgi-bin/nagios3/status.cgi?host=all&servicestatustypes=16
+

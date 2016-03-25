@@ -1,0 +1,51 @@
+ Dashboard GLPI, Nagios
+
+
+------------------------
+
+
+URL: 
+- http://(Adresse IP 172.16. . .)/inventaire/inc/index.php
+
+
+---------------------------
+
+
+Nécessaire pour le bon fonctionnement:
+
+1°- Connexion à la base de données GLPI (Host: 172.16.0.5 Username: kibana Mdp: psg)
+
+2°- Login et mdp de nagios pour faire fonctionner l'iframe
+
+
+----------------------------
+
+
+Les plusieurs types de fichiers:
+
+
+
+Index.php : Il se trouve dans le dossier "inc", c'est le fichier principal qui contient le code source de la page  
+	    (Html, php, iframe, connexion à la base de données, requêtes sql, variables pour les priorités, variables pour le statut)
+.
+	
+--
+
+
+min.css & style.css : Il se trouve dans le dossier "css", c'est le fichier qui contient le css de la page, 
+		      en gros tout ce qu'il concerne la beauté de la page (Taille de la police, alignement de la police, 
+		      taille du tableaux, couleur du navigateur, etc...)
+
+
+--
+
+
+script.js: Il se trouve dans le dossier "js", c'est le fichier qui contient le javascript de la page, 
+	   les fonctions concernant le diagramme des priorités et la variable de la somme de tous les tickets.
+
+
+--
+
+
+Dossier img: Ce dossier contient les images utilisées dans la page web, favicon pour l'onglet du navigateur 
+	     et icon pour le logo glpi dans le navigateur noir.
